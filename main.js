@@ -33,7 +33,7 @@ function draw(){
     stroke("#FF0000");
 if(scoreLeftWrist > 0.2)
 {
-    circle(leftWristX,leftWristy,20)
+    circle(leftWristX,leftWristY,20)
     InNumberleftWristY = Number(leftWristY);
     remove_decimals = floor(InNumberleftWristY);
     volume = remove_decimals/500;
